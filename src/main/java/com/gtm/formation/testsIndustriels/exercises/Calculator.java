@@ -1,5 +1,8 @@
 package com.gtm.formation.testsIndustriels.exercises;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Calculator {
     public int add(String a, String b){
         try {
